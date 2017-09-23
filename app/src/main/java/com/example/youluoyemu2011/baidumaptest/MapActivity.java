@@ -55,7 +55,7 @@ public class MapActivity extends AppCompatActivity {
 
     private void navigateTo(BDLocation location){
         if (isFirstLocated) {
-            MapStatusUpdate update = MapStatusUpdateFactory.zoomTo(16f);
+            MapStatusUpdate update = MapStatusUpdateFactory.zoomTo(16.5f);
             mBaiduMap.animateMapStatus(update);
             LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
             update = MapStatusUpdateFactory.newLatLng(latLng);
