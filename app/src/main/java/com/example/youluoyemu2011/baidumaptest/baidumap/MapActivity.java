@@ -1,4 +1,4 @@
-package com.example.youluoyemu2011.baidumaptest;
+package com.example.youluoyemu2011.baidumaptest.baidumap;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +14,7 @@ import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MyLocationData;
 import com.baidu.mapapi.model.LatLng;
+import com.example.youluoyemu2011.baidumaptest.R;
 
 public class MapActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.youluoyemu2011.baidumaptest;
+package com.example.youluoyemu2011.baidumaptest.baidumap;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -14,6 +14,7 @@ import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
 import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
+import com.example.youluoyemu2011.baidumaptest.R;
 
 import java.util.ArrayList;
 import java.util.List;

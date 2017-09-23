@@ -1,4 +1,4 @@
-package com.example.youluoyemu2011.baidumaptest;
+package com.example.youluoyemu2011.baidumaptest.baidumap;
 
 import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
